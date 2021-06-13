@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.265 s <<< FAILURE! - in runner.RunnerTest
-runner.RunnerTest.runScenario["Best Buy HomePage Title", "Optional[Home Page Test]"](1)  Time elapsed: 23.389 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.376 s <<< FAILURE! - in runner.RunnerTest
+runner.RunnerTest.runScenario["Best Buy HomePage Title", "Optional[Home Page Test]"](1)  Time elapsed: 14.553 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 

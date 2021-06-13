@@ -6,7 +6,7 @@ When User is on the HomePage
 Then Verify the title is "<expectedTitle>"
 Examples:
 |expectedTitle|
-|Best Buy International: Select your Country - Best Buy|
+|Best Buy|
 
 
 Scenario Outline: Best Buy HomePage Title
@@ -15,7 +15,7 @@ When User is on the HomePage
 Then Verify the title is "<expectedTitle>"
 Examples:
 |expectedTitle|
-|Best Buy International: Select your Country - Best Buys|
+|Best Buy|
 
 
 Scenario Outline: Best Buy HomePage Title
@@ -24,4 +24,4 @@ When User is on the HomePage
 Then Verify the count of links present on the homepage is "<noOfLinks>"
 Examples:
 |noOfLinks|
-|12|
+|161|

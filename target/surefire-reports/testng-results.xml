@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-12T10:55:29 IST" name="Surefire suite" finished-at="2021-06-12T10:56:09 IST" duration-ms="40269">
+  <suite started-at="2021-06-13T12:08:55 IST" name="Surefire suite" finished-at="2021-06-13T12:09:12 IST" duration-ms="16987">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-06-12T10:55:29 IST" name="Surefire test" finished-at="2021-06-12T10:56:09 IST" duration-ms="40269">
+    <test started-at="2021-06-13T12:08:55 IST" name="Surefire test" finished-at="2021-06-13T12:09:12 IST" duration-ms="16987">
       <class name="runner.RunnerTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-12T10:55:29 IST" name="setUpClass" finished-at="2021-06-12T10:55:31 IST" duration-ms="1923" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-13T12:08:55 IST" name="setUpClass" finished-at="2021-06-13T12:08:56 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-12T10:55:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-12T10:56:05 IST" duration-ms="34326" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-13T12:08:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-13T12:09:10 IST" duration-ms="14428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-12T10:55:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-12T10:55:54 IST" duration-ms="23083" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-13T12:08:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-13T12:09:10 IST" duration-ms="14418" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,14 +54,14 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
 at stepDefs.HomePage_stepDef.verify_the_title_is(HomePage_stepDef.java:61)
-at ✽.Verify the title is "Best Buy International: Select your Country - Best Buys"(file:///C:/Users/Indraja/eclipse-workspace/com.mypracticeproject/src/test/resources/cucumber/features/HomePage.feature:15)
+at ✽.Verify the title is "Best Buy International: Select your Country - Best Buys"(file:///C:/Users/Indraja/CucumberProject/com.mypracticeproject/src/test/resources/cucumber/features/HomePage.feature:15)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-12T10:55:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-12T10:55:55 IST" duration-ms="23709" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-13T12:08:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-13T12:09:10 IST" duration-ms="14928" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@ at ✽.Verify the title is "Best Buy International: Select your Country - Best B
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-12T10:56:05 IST" name="tearDownClass" finished-at="2021-06-12T10:56:09 IST" duration-ms="3961" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerTest@79ad8b2f]" started-at="2021-06-13T12:09:10 IST" name="tearDownClass" finished-at="2021-06-13T12:09:12 IST" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
